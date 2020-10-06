@@ -574,7 +574,7 @@
                 emailjs.sendForm(serviceID, templateID, this)
                     .then(() => {
                         btn.innerText = 'Communicate';
-                        alert('It is at my desk, thank you.');
+                        alert("It\'s at my desk. Thank you for your time.");
                     }, (err) => {
                         btn.innerText = 'Pardon our dust';
                         alert(JSON.stringify(err));
